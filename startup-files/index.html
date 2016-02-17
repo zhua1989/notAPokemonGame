@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="icon" type="image/png" href="img/logo_pokeball.png" />
+		<meta charset="utf-8">
+		<title>Pokemon Battle Demo</title>
+		
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<link href="css/stylesheet.css" rel="stylesheet">
+		
+	</head>
+	
+	<body>
+
+	<div id="main-container" class="bullseye box-shadow-1 border-radius	">
+		
+		<div id="top-screen"></div>
+			<img id="charmander-img" src="./img/charmander.png" class="absolute">
+			<div id="user-name" class="absolute"></div>
+			<div id="user-lvl" class="absolute"></div>
+			<div id="user-bar-container" class="absolute">
+				<div id="user-health-bar" class="absolute"></div>
+			</div>
+
+			<img src="./img/your_info.png" id="your-info" class="absolute">
+
+			<img src="./img/attack.png" id="attackImg" class="absolute hide">
+			
+			<img id="pikachu-img" src="./img/pikachu.png" class="absolute">
+			<div id="cpu-name" class="absolute"></div>
+			<div id="cpu-lvl" class="absolute"></div>
+			<div id="cpu-bar-container" class="absolute">
+				<div id="cpu-health-bar" class="absolute"></div>
+			</div>
+			<img id="enemy-info" src="./img/enemy_info.png" id="enemy-info" class="absolute">
+
+			<div id="chat-box" class="absolute text-subhead"></div>
+			<img src="./img/grass.png" class="img-spacing" style="width: 400px;">
+			<img src="./img/chat_window.png" class="img-spacing" style="width: 400px;">
+
+		<div id="bottom-screen">
+			<div id="user-buttons" class="hide pointer">
+				<div id="move1-button" value="0">
+					<div id="move1-text" class="text-18 text-center absolute"></div>
+					<img src="./img/move.png" class="absolute button-one">	
+				</div>
+				<div id="move2-button" class="pointer" value="1">
+					<div id="move2-text" class="text-18 text-center absolute"></div>
+					<img src="./img/move.png" class="absolute button-two">	
+				</div>
+				<div id="move3-button" class="pointer" value="2">
+					<div id="move3-text" class="text-18 text-center absolute"></div>
+					<img src="./img/move.png" class="absolute button-three">	
+				</div>
+				<div id="move4-button" class="pointer" value="3">
+					<div id="move4-text" class="text-18 text-center absolute"></div>
+					<img src="./img/move.png" class="absolute button-four">	
+				</div>
+			</div>
+
+			<div id="game-over" class="absolute text-center text-30 hide">Game Over</div>
+		<img src="./img/toolbar_bg.png" class="img-spacing" style="width: 400px;">
+		</div>
+
+
+	</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/javascript.js"></script>
+	</body>
+</html>
