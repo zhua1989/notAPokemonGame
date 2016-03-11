@@ -11,7 +11,7 @@ var Pokemon = function(name, health, lvl, moves){
 var charmanderMoves = [{name:"Ember", type:"Attack", power: 20, accuracy:.80},
   {name:"Scratch", type:"Attack", power: 15, accuracy:.90},
   {name:"Growl", type:"Defense", power: .20, accuracy:1.0},
-  {name:"Poop", type:"Defense", power: .65, accuracy:.65},
+  {name:"Tail Whip", type:"Defense", power: .65, accuracy:.65},
 ]
 
 //create pokemon object from constructor 
